@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-align: center;
+}
+
+
+.row{
+    display: flex;
+}
+
+.col-1,
+.col-2,
+.col-3{
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.col-2{
+    flex: 2;
+}
+
+
+.col-3{
+    flex: 3;
+}
+header {
+    background-color: #f5f5f5;
+    padding: 10px 0;
+}
+
+
+.titulo-nav{
+    
+}
+
+nav ul  {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.download-button {
+    background-color:#04ddb2 ;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    align-items: left;
+
+}
+
+.intro {
+    margin: 50px 0;
+}
+
+.intro h1 {
+    font-size: 2.5em;
+}
+
+.intro span {
+    color: #04ddb2;
+}
+
+
+.images .image-grid {
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.images .image-grid img{
+    max-width: 100%;
+}
+
+.images .image-grid div {
+    width: 200px;
+    height: 200px;
+    background-color: #e0e0e0;
+}
+
+.train {
+    margin: 50px 0;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+}
+
+footer {    
+    background-color: #f5f5f5;
+    padding: 20px 0;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-links div, .footer-links a {
+    color: #333;
+    text-decoration: none;
+}
+
+
+
+main{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+.final-button{
+    background-color:#04ddb2 ;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+   
+
+}
+
+.lista{
+    list-style-type: none;
+}
+
+
+.lista li{
+    margin: 10px;
+}
+
+.logos{
+    background-color: #04ddb2;
+    border-radius: 30px;
+   
+}
+
+.logoto{
+    width: 1000px;
+}
